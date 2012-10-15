@@ -46,7 +46,8 @@ expectedGhcOnlyExtensions = ["ParallelArrays",
                              "CApiFFI",
                              "LambdaCase",
                              "MultiWayIf",
-                             "TypeHoles"]
+                             "TypeHoles",
+                             "OverloadedLists"]
 
 expectedCabalOnlyExtensions :: [String]
 expectedCabalOnlyExtensions = ["Generics",

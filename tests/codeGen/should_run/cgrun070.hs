@@ -6,7 +6,7 @@
 module Main ( main ) where
 
 import GHC.Word
-import GHC.Exts
+import GHC.Exts hiding (FromList(..))
 import GHC.Prim
 import GHC.ST
 
