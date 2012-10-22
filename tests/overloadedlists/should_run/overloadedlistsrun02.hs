@@ -8,5 +8,5 @@ main = do print ([] :: (S.Set Int))
           print (['a','c'..'g'] :: (S.Set Char))
           
 instance Ord a => FromList (S.Set a) where
- type (Elem (S.Set a)) = a
+ type (Item (S.Set a)) = a
  fromList = S.fromList

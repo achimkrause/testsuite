@@ -6,7 +6,7 @@ import GHC.Exts
 -- desugaring of explicit lists.
 
 instance FromList Int where
- type (Elem Int) = Int
+ type Item Int = Int
  fromList _ = 0
  fromListN n _ = n
  
